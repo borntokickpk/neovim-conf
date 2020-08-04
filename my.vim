@@ -32,3 +32,6 @@ autocmd vimenter * colorscheme gruvbox
 autocmd vimenter * AirlineTheme gruvbox
 
 set cursorcolumn
+
+" Git command
+nnoremap <leader>g :Git 
