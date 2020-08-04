@@ -15,5 +15,5 @@ nnoremap + :vertical resize +5<CR>
 " Color scheme
 set termguicolors
 autocmd vimenter * colorscheme gruvbox
-
+let g:airline_theme='gruvbox'
 set cursorcolumn
