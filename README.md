@@ -61,3 +61,8 @@ $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   )
 )
 ```
+
+### Clone Repo
+Clone this repository in your Home directory and the install plugins buy running
+``` :PlugInstall```
+command.
