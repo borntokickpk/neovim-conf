@@ -1,7 +1,21 @@
+syntax on
+
 set nu
 set relativenumber
 let mapleader=" "
 set nowrap
+set guicursor=
+set nohlsearch
+set noerrorbells
+set tabstop=4 softtabstop=4
+set expandtab
+set smartindent
+set smartcase
+set noswapfile
+set nobackup
+set incsearch
+set termguicolors
+set scrolloff=8
 
 " Window Commands
 nnoremap <leader>K :wincmd k<CR>
@@ -14,7 +28,6 @@ nnoremap - :vertical resize -5<CR>
 nnoremap + :vertical resize +5<CR>
 
 " Color scheme
-set termguicolors
 autocmd vimenter * colorscheme gruvbox
 autocmd vimenter * AirlineTheme gruvbox
 
