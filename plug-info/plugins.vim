@@ -6,4 +6,5 @@ Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox'
+Plug 'bling/vim-airline'
 call plug#end()
