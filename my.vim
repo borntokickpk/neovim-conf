@@ -15,3 +15,5 @@ nnoremap + :vertical resize +5<CR>
 " Color scheme
 set termguicolors
 autocmd vimenter * colorscheme gruvbox
+
+set cursorcolumn
