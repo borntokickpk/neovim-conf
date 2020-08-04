@@ -1,6 +1,7 @@
 set nu
 set relativenumber
 let mapleader=" "
+set nowrap
 
 " Window Commands
 nnoremap <leader>K :wincmd k<CR>
