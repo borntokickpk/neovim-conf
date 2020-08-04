@@ -11,3 +11,7 @@ nnoremap <leader>H :wincmd h<CR>
 " Resize vertical windows
 nnoremap - :vertical resize -5<CR>
 nnoremap + :vertical resize +5<CR>
+
+" Color scheme
+set termguicolors
+autocmd vimenter * colorscheme gruvbox
