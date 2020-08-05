@@ -35,3 +35,10 @@ set cursorcolumn
 
 " Git command
 nnoremap <leader>g :Git 
+
+" Close all windows
+nnoremap <c-s-w> :wincmd <c-o><CR>
+
+" Scroll fast
+nnoremap <c-e> 2<c-e>
+nnoremap <c-y> 2<c-y>
