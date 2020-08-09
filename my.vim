@@ -7,8 +7,9 @@ set nowrap
 set guicursor=
 set nohlsearch
 set noerrorbells
-set tabstop=4 softtabstop=4
-set expandtab
+set tabstop=3
+set softtabstop=0 noexpandtab
+set shiftwidth=3
 set smartindent
 set smartcase
 set noswapfile
@@ -16,6 +17,7 @@ set nobackup
 set incsearch
 set termguicolors
 set scrolloff=8
+set clipboard=unnamedplus
 
 " Window Commands
 nnoremap <leader>K :wincmd k<CR>
@@ -34,7 +36,7 @@ autocmd vimenter * AirlineTheme gruvbox
 set cursorcolumn
 
 " Git command
-nnoremap <leader>g :Git 
+nnoremap <leader>G :Git 
 
 " Scroll fast
 nnoremap <c-e> 2<c-e>
