@@ -1,3 +1,10 @@
 {
-	"coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript"]
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript"],
+  "explorer.width": 20,
+  "explorer.icon.enableVimDevicons": true,
+  "explorer.buffer.showHiddenBuffers": true,
+  "explorer.keyMappings": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  }
 }
