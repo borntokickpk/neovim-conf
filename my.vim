@@ -2,7 +2,6 @@ syntax on
 
 set nu
 set relativenumber
-let mapleader=" "
 set nowrap
 set guicursor=
 set nohlsearch
@@ -16,7 +15,7 @@ set noswapfile
 set nobackup
 set incsearch
 set termguicolors
-set scrolloff=8
+set scrolloff=4
 set clipboard=unnamedplus
 
 " Window Commands
@@ -34,9 +33,6 @@ autocmd vimenter * colorscheme gruvbox
 autocmd vimenter * AirlineTheme gruvbox
 
 set cursorcolumn
-
-" Git command
-nnoremap <leader>G :Git 
 
 " Scroll fast
 nnoremap <c-e> 2<c-e>
