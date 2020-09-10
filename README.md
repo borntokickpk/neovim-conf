@@ -30,8 +30,8 @@ In neovim run the following command:
 2. coc-prettier
 3. coc-git
 ### Useful COC commands
-1. <space>c to open command explorer
-2. gd to go to definition
-3. gr to find references
+1. ```<space>c``` to open command explorer
+2. ```gd``` to go to definition
+3. ```gr``` to find references
 
 Will update this readme.
